@@ -26,3 +26,7 @@ flowchart LR
   CS <--> CR
 
 ```
+## Repositories Links
+- [Registry Service](https://github.com/SaulMMBP/microservices-registry-service)
+- [API Gateway](https://github.com/SaulMMBP/microservices-gateway-service)
+- [Configuration Service](https://github.com/SaulMMBP/microservices-config-server)
