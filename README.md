@@ -6,9 +6,9 @@ Microservices practice project
 ```mermaid
 flowchart LR
 
-  G[API Gateway]
+  AG[API Gateway]
   RS[Registry and Discovery]
-  C[Configuration Service]
+  CS[Configuration Service]
   CR[Configurations repository]
   subgraph MS[Microservicios]
     direction TB
@@ -18,15 +18,16 @@ flowchart LR
     direction TB
   end
 
-  G <-- Registers --> RS
-  G <--> MS
+  AG <-- Registers --> RS
+  AG <--> MS
   MS <-- Registers --> RS
-  MS <--> C
+  MS <--> CS
   MS <--> DB
-  C <--> CR
+  CS <--> CR
   
 
   click RS "https://github.com/SaulMMBP/microservices-registry-service" _blank
-  click G "https://github.com/SaulMMBP/microservices-gateway-service" _blank
+  click AG "https://github.com/SaulMMBP/microservices-gateway-service" _blank
+  click CS "https://github.com/SaulMMBP/microservices-config-server" _blank
 
 ```
