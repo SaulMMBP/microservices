@@ -24,10 +24,5 @@ flowchart LR
   MS <--> CS
   MS <--> DB
   CS <--> CR
-  
-
-  click RS "https://github.com/SaulMMBP/microservices-registry-service"
-  click AG "https://github.com/SaulMMBP/microservices-gateway-service"
-  click CS "https://github.com/SaulMMBP/microservices-config-server"
 
 ```
