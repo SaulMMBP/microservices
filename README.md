@@ -26,8 +26,8 @@ flowchart LR
   CS <--> CR
   
 
-  click RS "https://github.com/SaulMMBP/microservices-registry-service" _blank
-  click AG "https://github.com/SaulMMBP/microservices-gateway-service" _blank
-  click CS "https://github.com/SaulMMBP/microservices-config-server" _blank
+  click RS "https://github.com/SaulMMBP/microservices-registry-service"
+  click AG "https://github.com/SaulMMBP/microservices-gateway-service"
+  click CS "https://github.com/SaulMMBP/microservices-config-server"
 
 ```
